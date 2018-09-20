@@ -5,7 +5,7 @@ function my_read(){
 
     RED='\033[0;31m'
     NC='\033[0m' # No Color
-		 RESET=`tput sgr0` # reset all colors
+    RESET=`tput sgr0` # reset all colors
 
     echo -e "${RED}"
     read -n $1 -p "$2 "
@@ -54,20 +54,10 @@ function yesno3(){
 	done
 }
 
+### colored echo
 function cecho(){
     RED='\033[0;31m'
     NC='\033[0m' # No Color
     echo -e "\n${RED}$1${NC}\n";
-
-}
-
-function my_read(){
-
-    RED='\033[0;31m'
-    NC='\033[0m' # No Color
-
-    echo -e "${RED}"
-    read -n $1 -p "$2 "
-    echo -e "${NC}"
 
 }
