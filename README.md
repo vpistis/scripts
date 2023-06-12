@@ -1,2 +1,2 @@
-# linux-scripts
-Some useful Linux script :)
+# scripts
+Some useful script :)
